@@ -1,0 +1,28 @@
+.navigation {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.input {
+    text-align: center;
+}
+
+.mainTitle {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.businessList--newYork {
+    margin: 7rem 0;
+}
+
+.businessList--manufacturing {
+    margin-bottom: 3rem;
+}
+
+.topLink {
+    text-align: center;
+}
