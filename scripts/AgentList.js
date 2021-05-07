@@ -3,10 +3,10 @@ import { getBusinesses } from "./database.js";
 
 const contentTarget = document.querySelector(".agentList")
 const agentSearchArticle = document.querySelector(".foundAgents")
-
+const searchBar = document.querySelector("#agentSearch")
 
 // Event Listener
-document.querySelector("#agentSearch").addEventListener(
+searchBar.addEventListener(
     "keypress", keyPressEvent => {
         if (keyPressEvent.key === "Enter") {
             const businesses = getBusinesses()
